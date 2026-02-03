@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-white text-black font-mono antialiased;
+  }
+  a {
+    @apply underline-offset-2;
+  }
+}
+
