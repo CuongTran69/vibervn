@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export function Footer() {
@@ -14,9 +13,6 @@ export function Footer() {
             © {new Date().getFullYear()} VIBER.VN — {t('footer.description')}
           </div>
           <div className="flex gap-6 text-sm">
-            <Link href="/tools" className="hover:underline dark:text-gray-300">{t('nav.tools')}</Link>
-            <Link href="/community" className="hover:underline dark:text-gray-300">{t('nav.community')}</Link>
-            <Link href="/docs" className="hover:underline dark:text-gray-300">{t('nav.docs')}</Link>
             <a href="https://t.me/augmentsupporter" target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-gray-300">Telegram</a>
           </div>
         </div>

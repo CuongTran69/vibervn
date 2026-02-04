@@ -48,9 +48,6 @@ export default async function Home({ params }: PageProps) {
             >
               {t('home.hero.cta')}
             </a>
-            <Link href="/docs" className="border-2 border-black px-6 py-3 hover:bg-gray-100 dark:border-gray-600 dark:text-white dark:hover:bg-gray-800">
-              {t('home.hero.docs')}
-            </Link>
           </div>
         </div>
       </section>

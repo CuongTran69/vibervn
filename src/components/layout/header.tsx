@@ -11,12 +11,6 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = useTranslations();
 
-  const navigation = [
-    { name: t('nav.tools'), href: "/tools" },
-    { name: t('nav.community'), href: "/community" },
-    { name: t('nav.docs'), href: "/docs" },
-  ];
-
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 border-b-2 border-black dark:border-gray-700">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
@@ -38,15 +32,6 @@ export function Header() {
         </div>
 
         <div className="hidden lg:flex lg:gap-x-6 items-center">
-          {navigation.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="text-sm hover:underline dark:text-gray-300"
-            >
-              {item.name}
-            </Link>
-          ))}
           <ThemeToggle />
           <LanguageSwitcher />
           <a
@@ -63,16 +48,6 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t-2 border-black dark:border-gray-700 bg-white dark:bg-gray-900">
           <div className="px-4 py-4 space-y-3">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="block text-sm hover:underline dark:text-gray-300"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
             <a
               href="https://viber.vn"
               target="_blank"
