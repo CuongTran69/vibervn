@@ -41,7 +41,7 @@ export default async function Home({ params }: PageProps) {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://viber.vn/#/referral"
+              href="https://viber.vn"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black text-white px-6 py-3 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200"
@@ -190,7 +190,7 @@ export default async function Home({ params }: PageProps) {
           <p className="text-sm text-gray-300 mb-6">{t('home.cta.description')}</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://viber.vn/#/referral"
+              href="https://viber.vn"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-black px-6 py-3 inline-block hover:bg-gray-100"

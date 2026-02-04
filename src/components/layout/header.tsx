@@ -50,7 +50,7 @@ export function Header() {
           <ThemeToggle />
           <LanguageSwitcher />
           <a
-            href="https://viber.vn/#/referral"
+            href="https://viber.vn"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white dark:bg-white dark:text-black px-4 py-2 text-sm hover:bg-gray-800 dark:hover:bg-gray-200"
@@ -74,7 +74,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="https://viber.vn/#/referral"
+              href="https://viber.vn"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-black text-white dark:bg-white dark:text-black px-4 py-2 text-sm text-center"

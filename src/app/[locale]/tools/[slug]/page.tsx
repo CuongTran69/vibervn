@@ -107,7 +107,7 @@ export default async function ToolDetailPage({ params }: ToolDetailPageProps) {
                 : 'Access Gateway to purchase an account and start using immediately.'}
             </p>
             <a
-              href={tool.gatewayUrl || 'https://viber.vn/#/referral'}
+              href={tool.gatewayUrl || 'https://viber.vn/'}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-black text-white dark:bg-white dark:text-black px-6 py-3 hover:bg-gray-800 dark:hover:bg-gray-200"

@@ -2,15 +2,38 @@
 
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 import { locales, Locale } from '@/i18n';
+
+const LOCALE_STORAGE_KEY = 'preferred-locale';
 
 export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
+  // On mount, check if user has a saved locale preference
+  useEffect(() => {
+    const savedLocale = localStorage.getItem(LOCALE_STORAGE_KEY) as Locale | null;
+
+    // If saved locale exists and differs from current, redirect
+    if (savedLocale && locales.includes(savedLocale) && savedLocale !== locale) {
+      if (!pathname) return;
+
+      const segments = pathname.split('/');
+      if (segments.length > 1 && locales.includes(segments[1] as Locale)) {
+        segments[1] = savedLocale;
+      }
+      const newPath = segments.join('/') || `/${savedLocale}`;
+      router.replace(newPath);
+    }
+  }, []); // Only run on mount
+
   const switchLocale = (newLocale: Locale) => {
     if (!pathname) return;
+
+    // Save preference to localStorage
+    localStorage.setItem(LOCALE_STORAGE_KEY, newLocale);
 
     // Get the path without the current locale prefix
     // pathname is like /vi/tools or /en/tools
