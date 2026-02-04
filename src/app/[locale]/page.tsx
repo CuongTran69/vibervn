@@ -88,7 +88,13 @@ export default async function Home({ params }: PageProps) {
           <h2 className="text-2xl font-bold mb-6 dark:text-white">{t('home.tools.title')}</h2>
           <div className="grid md:grid-cols-2 gap-6 mb-4">
             {availableTools.map((tool) => (
-              <Link key={tool.slug} href={`/tools/${tool.slug}`} className="border-2 border-black dark:border-gray-700 p-6 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+              <a
+                key={tool.slug}
+                href={tool.gatewayUrl || `https://viber.vn`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-black dark:border-gray-700 p-6 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              >
                 <div className="flex items-center gap-2 mb-2">
                   <h3 className="text-xl font-bold dark:text-white">{tool.name}</h3>
                   <span className="text-xs border border-black dark:border-gray-600 px-1 dark:text-gray-300">SUPPORTED</span>
@@ -101,7 +107,7 @@ export default async function Home({ params }: PageProps) {
                     {tool.tagline.vi}
                   </div>
                 )}
-              </Link>
+              </a>
             ))}
           </div>
           {/* Coming Soon */}
@@ -112,11 +118,6 @@ export default async function Home({ params }: PageProps) {
                 <span className="text-xs ml-2 text-gray-400">{t('common.comingSoon')}</span>
               </div>
             ))}
-          </div>
-          <div className="text-center">
-            <Link href="/tools" className="underline text-sm dark:text-gray-300">
-              {t('home.tools.viewDetails')}
-            </Link>
           </div>
         </div>
       </section>
