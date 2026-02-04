@@ -1,0 +1,135 @@
+{
+  "common": {
+    "gateway": "Gateway",
+    "learnMore": "Learn more",
+    "getStarted": "Get Started",
+    "viewAll": "View all",
+    "comingSoon": "Coming Soon",
+    "available": "Available",
+    "support": "Support",
+    "documentation": "Documentation",
+    "community": "Community",
+    "externalLink": "External link",
+    "note": "Note"
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "videos": "Videos",
+    "articles": "Articles",
+    "docs": "Docs",
+    "community": "Community",
+    "pricing": "Pricing",
+    "products": "Products"
+  },
+  "home": {
+    "hero": {
+      "badge": "[ GATEWAY ]",
+      "title": "Connect with AI Coding Tools",
+      "description": "Viber.vn is a gateway that helps you access and use Augment Code, Claude Code easily. Vietnamese documentation, 24/7 support.",
+      "cta": "Access Gateway →",
+      "docs": "User Guide"
+    },
+    "gateway": {
+      "title": "What is Gateway?",
+      "connect": {
+        "number": "1",
+        "title": "Connect",
+        "description": "Gateway connects you with AI coding tools like Augment Code and Claude Code through a single access point."
+      },
+      "simple": {
+        "number": "2",
+        "title": "Simple",
+        "description": "Vietnamese documentation, step-by-step guides, easy to setup and use."
+      },
+      "support": {
+        "number": "3",
+        "title": "Support",
+        "description": "Active Telegram community, support team ready to help 24/7."
+      }
+    },
+    "tools": {
+      "title": "Available Tools",
+      "viewDetails": "View tool details →"
+    },
+    "videos": {
+      "title": "Tutorial Videos",
+      "viewAll": "View all videos →"
+    },
+    "articles": {
+      "title": "Latest Articles",
+      "viewAll": "View all articles →"
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Access gateway to connect with AI coding tools",
+      "primary": "Access viber.vn →",
+      "secondary": "💬 Telegram Support"
+    }
+  },
+  "tools": {
+    "title": "AI Coding Tools",
+    "subtitle": "Discover the leading AI-powered coding tools",
+    "available": "Available Now",
+    "availableNow": "Available Now",
+    "comingSoon": "Coming Soon",
+    "products": "Products",
+    "strengths": "Strengths",
+    "bestFor": "Best For",
+    "accessGateway": "Access Gateway",
+    "note": "Gateway only provides connection and payment support. The tools above are developed by Augment Code Inc. and Anthropic.",
+    "augmentCode": {
+      "name": "Augment Code",
+      "description": "AI assistant that understands your codebase context. Integrates with VS Code, JetBrains, Neovim.",
+      "tagline": "Codebase retrieval • Multi-file editing • Context-aware"
+    },
+    "claudeCode": {
+      "name": "Claude Code",
+      "description": "Powered by Anthropic. Superior reasoning capabilities for complex tasks.",
+      "tagline": "Advanced reasoning • Code review • Documentation"
+    },
+    "opencode": {
+      "name": "OpenCode",
+      "description": "Open source AI coding tool."
+    },
+    "ampcode": {
+      "name": "AmpCode",
+      "description": "Next generation AI coding assistant."
+    },
+    "antigravity": {
+      "name": "Antigravity",
+      "description": "Breakthrough AI coding platform."
+    }
+  },
+  "videos": {
+    "title": "Tutorial Videos",
+    "subtitle": "Learn how to setup and use AI coding tools",
+    "categories": {
+      "setup": "Setup Guides",
+      "tutorials": "Tutorials",
+      "tips": "Tips & Tricks"
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "subtitle": "News and articles about AI Coding",
+    "readMore": "Read more on Gateway →"
+  },
+  "footer": {
+    "description": "Gateway connecting you with AI Coding Tools",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "connect": "Connect",
+    "copyright": "© 2024 Viber.vn. All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English"
+  }
+}
+

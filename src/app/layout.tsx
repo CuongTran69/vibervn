@@ -19,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi">
-      <body className={spaceMono.className}>
+    <html lang="vi" suppressHydrationWarning>
+      <body className={`${spaceMono.className} bg-white dark:bg-gray-900`}>
         {children}
       </body>
     </html>
