@@ -15,6 +15,34 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 'openspec-user-guide',
+    title: {
+      vi: 'OpenSpec - Hướng Dẫn Sử Dụng: Quản lý Specs cho AI Coding',
+      en: 'OpenSpec - User Guide: Managing Specs for AI Coding'
+    },
+    excerpt: {
+      vi: 'Hướng dẫn toàn diện về OpenSpec với các commands: explore, new, ff, continue, apply, verify, sync, archive. Bao gồm use cases và flow diagrams chi tiết.',
+      en: 'Comprehensive guide to OpenSpec with commands: explore, new, ff, continue, apply, verify, sync, archive. Includes detailed use cases and flow diagrams.'
+    },
+    category: 'Tutorials',
+    date: '2026-02-04',
+    externalUrl: 'https://viber.vn/#/p/TBXbncOW'
+  },
+  {
+    id: 'speckit-introduction',
+    title: {
+      vi: 'SpecKit nhập môn: Hướng dẫn sử dụng Spec Kit cho AI Coding',
+      en: 'SpecKit Introduction: A Guide to Using Spec Kit for AI Coding'
+    },
+    excerpt: {
+      vi: 'Tìm hiểu cách sử dụng SpecKit để quản lý specs trong AI coding - từ task nhỏ đến feature phức tạp, planning, implement, validate và sync legacy code.',
+      en: 'Learn how to use SpecKit for managing specs in AI coding - from small tasks to complex features, planning, implementation, validation, and syncing legacy code.'
+    },
+    category: 'Tutorials',
+    date: '2026-02-04',
+    externalUrl: 'https://viber.vn/#/p/WEoADXJ3'
+  },
+  {
     id: 'what-is-vibe-coding',
     title: {
       vi: 'Vibe Coding là gì? Tại sao nó đang thay đổi cách lập trình?',

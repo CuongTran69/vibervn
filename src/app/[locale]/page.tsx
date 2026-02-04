@@ -174,9 +174,14 @@ export default async function Home({ params }: PageProps) {
             ))}
           </div>
           <div className="text-center">
-            <Link href="/articles" className="underline text-sm dark:text-gray-300">
+            <a
+              href="https://viber.vn/#/posts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-sm dark:text-gray-300"
+            >
               {t('home.articles.viewAll')}
-            </Link>
+            </a>
           </div>
         </div>
       </section>
