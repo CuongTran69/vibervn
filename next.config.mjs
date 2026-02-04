@@ -6,6 +6,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  distDir: 'dist',
   trailingSlash: true,
   images: {
     unoptimized: true,
