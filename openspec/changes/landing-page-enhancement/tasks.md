@@ -26,14 +26,14 @@
 - [x] 4.2 Create ThemeToggle component (Light/Dark/System options)
 - [x] 4.3 Update Header component to include ThemeToggle
 - [x] 4.4 Update all components with dark mode Tailwind classes
-- [ ] 4.5 Test theme persistence across page reloads
+- [x] 4.5 Test theme persistence across page reloads
 
 ## 5. Language Switcher
 
 - [x] 5.1 Create LanguageSwitcher component
 - [x] 5.2 Add LanguageSwitcher to Header component
 - [x] 5.3 Implement locale switching with URL update
-- [ ] 5.4 Test language persistence across sessions
+- [x] 5.4 Test language persistence across sessions
 
 ## 6. Tools Data & Pages
 
@@ -74,16 +74,16 @@
 
 ## 10. SEO & Meta Tags
 
-- [ ] 10.1 Add hreflang tags for multi-language support
-- [ ] 10.2 Add canonical URLs per locale
-- [ ] 10.3 Update meta descriptions for all pages
-- [ ] 10.4 Add Open Graph tags for social sharing
+- [x] 10.1 Add hreflang tags for multi-language support
+- [x] 10.2 Add canonical URLs per locale
+- [x] 10.3 Update meta descriptions for all pages
+- [x] 10.4 Add Open Graph tags for social sharing
 
 ## 11. Testing & Polish
 
 - [x] 11.1 Test all pages in both locales (vi, en)
 - [x] 11.2 Test dark mode on all pages
-- [ ] 11.3 Test responsive design on mobile/tablet/desktop
+- [x] 11.3 Test responsive design on mobile/tablet/desktop
 - [x] 11.4 Test static export build
 - [x] 11.5 Verify Cloudflare Pages deployment compatibility
 

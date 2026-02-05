@@ -1,9 +1,11 @@
+import { Metadata } from "next";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { ArticleCard } from "@/components/articles/article-card";
 import { articles } from "@/data/articles";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { locales } from "@/i18n";
+import { locales, Locale } from "@/i18n";
+import { generatePageMetadata, seoContent } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -11,6 +13,17 @@ export function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const content = seoContent.articles[locale as Locale];
+  return generatePageMetadata({
+    title: content.title,
+    description: content.description,
+    path: '/articles',
+    locale,
+  });
 }
 
 export default async function ArticlesPage({ params }: PageProps) {

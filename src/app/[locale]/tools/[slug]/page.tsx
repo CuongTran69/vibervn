@@ -1,9 +1,11 @@
+import { Metadata } from "next";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { getToolBySlug, tools } from "@/data/tools";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { locales } from "@/i18n";
+import { locales, Locale } from "@/i18n";
+import { generatePageMetadata } from "@/lib/seo";
 
 interface ToolDetailPageProps {
   params: Promise<{ slug: string; locale: string }>;
@@ -14,6 +16,26 @@ export function generateStaticParams() {
   return locales.flatMap((locale) =>
     availableTools.map((tool) => ({ locale, slug: tool.slug }))
   );
+}
+
+export async function generateMetadata({ params }: ToolDetailPageProps): Promise<Metadata> {
+  const { slug, locale } = await params;
+  const tool = getToolBySlug(slug);
+
+  if (!tool) {
+    return {};
+  }
+
+  const lang = locale as Locale;
+  const title = `${tool.name} - AI Coding Tool | Viber.vn`;
+  const description = tool.description[lang];
+
+  return generatePageMetadata({
+    title,
+    description,
+    path: `/tools/${slug}`,
+    locale,
+  });
 }
 
 export default async function ToolDetailPage({ params }: ToolDetailPageProps) {

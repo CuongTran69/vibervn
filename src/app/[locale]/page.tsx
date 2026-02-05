@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -5,7 +6,8 @@ import Link from "next/link";
 import { getAvailableTools, getComingSoonTools } from "@/data/tools";
 import { videos } from "@/data/videos";
 import { articles } from "@/data/articles";
-import { locales } from "@/i18n";
+import { locales, Locale } from "@/i18n";
+import { generatePageMetadata, seoContent } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -13,6 +15,17 @@ export function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const content = seoContent.home[locale as Locale];
+  return generatePageMetadata({
+    title: content.title,
+    description: content.description,
+    path: '',
+    locale,
+  });
 }
 
 export default async function Home({ params }: PageProps) {

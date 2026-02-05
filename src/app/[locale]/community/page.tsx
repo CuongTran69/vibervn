@@ -1,7 +1,9 @@
+import { Metadata } from "next";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { locales } from "@/i18n";
+import { locales, Locale } from "@/i18n";
+import { generatePageMetadata, seoContent } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -9,6 +11,17 @@ export function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const content = seoContent.community[locale as Locale];
+  return generatePageMetadata({
+    title: content.title,
+    description: content.description,
+    path: '/community',
+    locale,
+  });
 }
 
 export default async function CommunityPage({ params }: PageProps) {
