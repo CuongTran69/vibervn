@@ -4,13 +4,20 @@ import "./globals.css";
 
 const spaceMono = Space_Mono({
   weight: ["400", "700"],
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Viber.vn - AI Coding Assistant Gateway | Augment Code & Claude Code",
-  description: "Nền tảng cung cấp dịch vụ AI Coding Assistant hàng đầu Việt Nam. Mua tài khoản Augment Code, Claude Code với giá tốt nhất.",
-  keywords: ["Augment Code", "Claude Code", "AI Coding", "Vietnam", "AI Assistant"],
+  description:
+    "Nền tảng cung cấp dịch vụ AI Coding Assistant hàng đầu Việt Nam. Cung cấp các tài khoản Augment Code, Claude Code, OpenCode, OpenClaw,... với giá tốt nhất.",
+  keywords: [
+    "Augment Code",
+    "Claude Code",
+    "AI Coding",
+    "Vietnam",
+    "AI Assistant",
+  ],
 };
 
 export default function RootLayout({
@@ -26,4 +33,3 @@ export default function RootLayout({
     </html>
   );
 }
-
