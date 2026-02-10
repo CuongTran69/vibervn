@@ -60,6 +60,18 @@
       "title": "Bài viết mới nhất",
       "viewAll": "Xem tất cả bài viết →"
     },
+    "quickStart": {
+      "title": "Quick Start",
+      "step1": "Truy cập viber.vn và tạo tài khoản",
+      "step2": "Lấy API key trong dashboard",
+      "step3": "Cài extension và nhập API key",
+      "step4": "Bắt đầu sử dụng!"
+    },
+    "community": {
+      "title": "Cộng đồng",
+      "description": "Join group Telegram để chém gió về coding, vibe code, AI tools, và mọi thứ liên quan đến lập trình.",
+      "joinTelegram": "Join Telegram →"
+    },
     "cta": {
       "title": "Sẵn sàng bắt đầu?",
       "description": "Truy cập gateway để kết nối với AI coding tools",
@@ -90,7 +102,13 @@
     },
     "opencode": {
       "name": "OpenCode",
-      "description": "Công cụ AI coding mã nguồn mở."
+      "description": "Công cụ AI coding mã nguồn mở, hỗ trợ nhiều LLM providers. OpenCode mang đến trải nghiệm coding với AI linh hoạt, minh bạch và có thể tùy chỉnh hoàn toàn.",
+      "tagline": "Open source • Multi-provider • Tùy chỉnh cao"
+    },
+    "openclaw": {
+      "name": "OpenClaw",
+      "description": "Trợ lý AI cá nhân mã nguồn mở, chạy trên thiết bị của bạn. Kết nối qua Telegram, WhatsApp, Slack, Discord, Zalo với bộ nhớ liên tục 24/7.",
+      "tagline": "Local-first • Multi-channel • Trợ lý AI cá nhân 24/7"
     },
     "ampcode": {
       "name": "AmpCode",

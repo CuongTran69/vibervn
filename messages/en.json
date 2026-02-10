@@ -60,6 +60,18 @@
       "title": "Latest Articles",
       "viewAll": "View all articles →"
     },
+    "quickStart": {
+      "title": "Quick Start",
+      "step1": "Visit viber.vn and create an account",
+      "step2": "Get your API key from the dashboard",
+      "step3": "Install the extension and enter your API key",
+      "step4": "Start using!"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Join our Telegram group to chat about coding, vibe code, AI tools, and everything related to programming.",
+      "joinTelegram": "Join Telegram →"
+    },
     "cta": {
       "title": "Ready to get started?",
       "description": "Access gateway to connect with AI coding tools",
@@ -90,7 +102,13 @@
     },
     "opencode": {
       "name": "OpenCode",
-      "description": "Open source AI coding tool."
+      "description": "Open source AI coding tool supporting multiple LLM providers. OpenCode delivers a flexible, transparent, and fully customizable AI coding experience.",
+      "tagline": "Open source • Multi-provider • Highly customizable"
+    },
+    "openclaw": {
+      "name": "OpenClaw",
+      "description": "Open-source personal AI assistant that runs on your own devices. Connect through Telegram, WhatsApp, Slack, Discord, Zalo with persistent 24/7 memory.",
+      "tagline": "Local-first • Multi-channel • 24/7 Personal AI assistant"
     },
     "ampcode": {
       "name": "AmpCode",
