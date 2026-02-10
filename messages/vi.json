@@ -26,7 +26,7 @@
     "hero": {
       "badge": "[ GATEWAY ]",
       "title": "Kết nối với AI Coding Tools",
-      "description": "Viber.vn là gateway giúp bạn truy cập và sử dụng Augment Code, Claude Code một cách dễ dàng. Tài liệu tiếng Việt, hỗ trợ 24/7.",
+      "description": "<b>Viber.vn</b> là gateway giúp bạn truy cập và sử dụng <b>Augment Code</b>, <b>Claude Code</b>, <b>OpenCode</b>, <b>OpenClaw</b>,... một cách dễ dàng. Tài liệu tiếng Việt, hỗ trợ 24/7.",
       "cta": "Truy cập Gateway →",
       "docs": "Hướng dẫn sử dụng"
     },
@@ -150,4 +150,3 @@
     "en": "English"
   }
 }
-

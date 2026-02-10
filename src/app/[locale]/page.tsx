@@ -49,7 +49,9 @@ export default async function Home({ params }: PageProps) {
             {t('home.hero.title')}
           </h1>
           <p className="text-lg mb-8 max-w-2xl text-gray-600 dark:text-gray-400">
-            {t('home.hero.description')}
+            {t.rich('home.hero.description', {
+              b: (chunks) => <strong className="font-semibold text-black dark:text-white">{chunks}</strong>
+            })}
           </p>
           <div className="flex flex-wrap gap-4">
             <a
