@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import { Sun, Moon, Monitor } from 'lucide-react';
+import { Sun, Moon } from 'lucide-react';
 
 export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
@@ -38,14 +38,7 @@ export function ThemeToggle() {
       >
         <Moon className="w-4 h-4" />
       </button>
-      <button
-        onClick={() => setTheme('system')}
-        className={`p-1 rounded ${theme === 'system' ? 'bg-black text-white dark:bg-white dark:text-black' : 'hover:bg-gray-100 dark:hover:bg-gray-800'}`}
-        title="System"
-        aria-label="System theme"
-      >
-        <Monitor className="w-4 h-4" />
-      </button>
+
     </div>
   );
 }

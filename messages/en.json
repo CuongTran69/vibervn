@@ -62,10 +62,16 @@
     },
     "quickStart": {
       "title": "Quick Start",
-      "step1": "Visit viber.vn and create an account",
-      "step2": "Get your API key from the dashboard",
-      "step3": "Install the extension and enter your API key",
-      "step4": "Start using!"
+      "step1": {
+        "title": "Visit Gateway",
+        "description": "Visit <b>viber.vn</b> and create a gateway account to start using AI coding tools",
+        "cta": "Access viber.vn →"
+      },
+      "step2": {
+        "title": "Join Community",
+        "description": "Join our Telegram community for account setup guidance and service activation",
+        "cta": "Join Telegram →"
+      }
     },
     "community": {
       "title": "Community",

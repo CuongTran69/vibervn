@@ -62,10 +62,16 @@
     },
     "quickStart": {
       "title": "Quick Start",
-      "step1": "Truy cập viber.vn và tạo tài khoản",
-      "step2": "Lấy API key trong dashboard",
-      "step3": "Cài extension và nhập API key",
-      "step4": "Bắt đầu sử dụng!"
+      "step1": {
+        "title": "Truy cập Gateway",
+        "description": "Truy cập <b>viber.vn</b> và tạo tài khoản gateway để bắt đầu sử dụng các công cụ AI coding",
+        "cta": "Truy cập viber.vn →"
+      },
+      "step2": {
+        "title": "Tham gia cộng đồng",
+        "description": "Tham gia group Telegram để được hướng dẫn thiết lập tài khoản và kích hoạt dịch vụ",
+        "cta": "Join Telegram →"
+      }
     },
     "community": {
       "title": "Cộng đồng",
