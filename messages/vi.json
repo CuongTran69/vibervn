@@ -1,34 +1,9 @@
 {
-  "common": {
-    "gateway": "Gateway",
-    "learnMore": "Tìm hiểu thêm",
-    "getStarted": "Bắt đầu",
-    "viewAll": "Xem tất cả",
-    "comingSoon": "Sắp ra mắt",
-    "available": "Có sẵn",
-    "support": "Hỗ trợ",
-    "documentation": "Tài liệu",
-    "community": "Cộng đồng",
-    "externalLink": "Liên kết ngoài",
-    "note": "Lưu ý"
-  },
-  "nav": {
-    "home": "Trang chủ",
-    "tools": "Công cụ",
-    "videos": "Video",
-    "articles": "Bài viết",
-    "docs": "Hướng dẫn",
-    "community": "Cộng đồng",
-    "pricing": "Bảng giá",
-    "products": "Sản phẩm"
-  },
   "home": {
     "hero": {
-      "badge": "[ GATEWAY ]",
       "title": "Kết nối với AI Coding Tools",
       "description": "<b>Viber.vn</b> là gateway giúp bạn truy cập và sử dụng <b>Augment Code</b>, <b>Claude Code</b>, <b>OpenCode</b>, <b>OpenClaw</b>,... một cách dễ dàng. Tài liệu tiếng Việt, hỗ trợ 24/7.",
-      "cta": "Truy cập Gateway →",
-      "docs": "Hướng dẫn sử dụng"
+      "cta": "Truy cập Gateway →"
     },
     "gateway": {
       "title": "Gateway là gì?",
@@ -49,16 +24,13 @@
       }
     },
     "tools": {
-      "title": "Các AI Coding có sẵn",
-      "viewDetails": "Xem chi tiết các công cụ →"
+      "title": "Các AI Coding có sẵn"
     },
     "videos": {
-      "title": "Video hướng dẫn",
-      "viewAll": "Xem tất cả video →"
+      "title": "Video hướng dẫn"
     },
     "articles": {
-      "title": "Bài viết mới nhất",
-      "viewAll": "Xem tất cả bài viết →"
+      "title": "Bài viết mới nhất"
     },
     "quickStart": {
       "title": "Quick Start",
@@ -86,65 +58,19 @@
     }
   },
   "tools": {
-    "title": "AI Coding Tools",
-    "subtitle": "Khám phá các công cụ AI hỗ trợ lập trình hàng đầu",
-    "available": "Có sẵn ngay",
-    "availableNow": "Có sẵn ngay",
-    "comingSoon": "Sắp ra mắt",
-    "products": "Sản phẩm",
     "strengths": "Điểm mạnh",
     "bestFor": "Phù hợp cho",
-    "accessGateway": "Truy cập Gateway",
-    "note": "Gateway chỉ cung cấp kết nối và hỗ trợ thanh toán. Các công cụ trên được phát triển bởi Augment Code Inc. và Anthropic.",
-    "augmentCode": {
-      "name": "Augment Code",
-      "description": "AI assistant hiểu ngữ cảnh codebase. Tích hợp VS Code, JetBrains, Neovim.",
-      "tagline": "Codebase retrieval • Multi-file editing • Context-aware"
-    },
-    "claudeCode": {
-      "name": "Claude Code",
-      "description": "Powered by Anthropic. Khả năng reasoning vượt trội cho task phức tạp.",
-      "tagline": "Advanced reasoning • Code review • Documentation"
-    },
-    "opencode": {
-      "name": "OpenCode",
-      "description": "Công cụ AI coding mã nguồn mở, hỗ trợ nhiều LLM providers. OpenCode mang đến trải nghiệm coding với AI linh hoạt, minh bạch và có thể tùy chỉnh hoàn toàn.",
-      "tagline": "Open source • Multi-provider • Tùy chỉnh cao"
-    },
-    "openclaw": {
-      "name": "OpenClaw",
-      "description": "Trợ lý AI cá nhân mã nguồn mở, chạy trên thiết bị của bạn. Kết nối qua Telegram, WhatsApp, Slack, Discord, Zalo với bộ nhớ liên tục 24/7.",
-      "tagline": "Local-first • Multi-channel • Trợ lý AI cá nhân 24/7"
-    },
-    "ampcode": {
-      "name": "AmpCode",
-      "description": "AI coding assistant thế hệ mới."
-    },
-    "antigravity": {
-      "name": "Antigravity",
-      "description": "Nền tảng AI coding đột phá."
-    }
+    "accessGateway": "Truy cập Gateway"
   },
   "videos": {
-    "title": "Video Hướng Dẫn",
-    "subtitle": "Học cách setup và sử dụng các AI coding tools",
     "categories": {
       "setup": "Hướng dẫn cài đặt",
       "tutorials": "Hướng dẫn sử dụng",
       "tips": "Mẹo & Thủ thuật"
     }
   },
-  "articles": {
-    "title": "Bài Viết",
-    "subtitle": "Tin tức và bài viết về AI Coding",
-    "readMore": "Đọc thêm trên Gateway →"
-  },
   "footer": {
-    "description": "Gateway kết nối bạn với AI Coding Tools",
-    "quickLinks": "Liên kết nhanh",
-    "resources": "Tài nguyên",
-    "connect": "Kết nối",
-    "copyright": "© 2024 Viber.vn. All rights reserved."
+    "description": "Gateway kết nối bạn với AI Coding Tools"
   },
   "theme": {
     "light": "Sáng",

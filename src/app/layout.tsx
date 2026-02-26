@@ -8,15 +8,18 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Viber.vn - AI Coding Assistant Gateway | Augment Code & Claude Code",
+  title: "Viber.vn - AI Coding Assistant Gateway | Augment Code, Claude Code, OpenCode & OpenClaw",
   description:
-    "Nền tảng cung cấp dịch vụ AI Coding Assistant hàng đầu Việt Nam. Cung cấp các tài khoản Augment Code, Claude Code, OpenCode, OpenClaw,... với giá tốt nhất.",
+    "Nền tảng cung cấp dịch vụ AI Coding Assistant hàng đầu Việt Nam. Truy cập Augment Code, Claude Code, OpenCode, OpenClaw với tài liệu tiếng Việt và hỗ trợ 24/7.",
   keywords: [
     "Augment Code",
     "Claude Code",
+    "OpenCode",
+    "OpenClaw",
     "AI Coding",
     "Vietnam",
     "AI Assistant",
+    "Viber.vn",
   ],
 };
 

@@ -12,15 +12,15 @@ The system SHALL support two languages: Vietnamese (vi) and English (en), with V
 - **THEN** all UI text, labels, and content are displayed in the selected language
 
 ### Requirement: Locale-based routing
-The system SHALL use locale-prefixed URLs for all pages (e.g., `/vi/tools`, `/en/tools`).
+The system SHALL use locale-prefixed URLs (e.g., `/vi/`, `/en/`). This is a single-page application with only the home page.
 
 #### Scenario: Vietnamese locale routing
-- **WHEN** user navigates to `/vi/tools`
-- **THEN** the tools page is displayed in Vietnamese
+- **WHEN** user navigates to `/vi/`
+- **THEN** the home page is displayed in Vietnamese
 
 #### Scenario: English locale routing
-- **WHEN** user navigates to `/en/tools`
-- **THEN** the tools page is displayed in English
+- **WHEN** user navigates to `/en/`
+- **THEN** the home page is displayed in English
 
 #### Scenario: Root URL redirect
 - **WHEN** user visits the root URL `/`
@@ -34,12 +34,12 @@ The system SHALL display a language switcher control in the site header.
 - **THEN** a language switcher is visible in the header
 
 #### Scenario: Switch from Vietnamese to English
-- **WHEN** user clicks English option in language switcher while on `/vi/tools`
-- **THEN** user is navigated to `/en/tools` with English content
+- **WHEN** user clicks English option in language switcher while on `/vi/`
+- **THEN** user is navigated to `/en/` with English content
 
 #### Scenario: Switch from English to Vietnamese
-- **WHEN** user clicks Vietnamese option in language switcher while on `/en/tools`
-- **THEN** user is navigated to `/vi/tools` with Vietnamese content
+- **WHEN** user clicks Vietnamese option in language switcher while on `/en/`
+- **THEN** user is navigated to `/vi/` with Vietnamese content
 
 ### Requirement: Language preference persistence
 The system SHALL remember user's language preference across sessions.

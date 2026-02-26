@@ -1,34 +1,9 @@
 {
-  "common": {
-    "gateway": "Gateway",
-    "learnMore": "Learn more",
-    "getStarted": "Get Started",
-    "viewAll": "View all",
-    "comingSoon": "Coming Soon",
-    "available": "Available",
-    "support": "Support",
-    "documentation": "Documentation",
-    "community": "Community",
-    "externalLink": "External link",
-    "note": "Note"
-  },
-  "nav": {
-    "home": "Home",
-    "tools": "Tools",
-    "videos": "Videos",
-    "articles": "Articles",
-    "docs": "Docs",
-    "community": "Community",
-    "pricing": "Pricing",
-    "products": "Products"
-  },
   "home": {
     "hero": {
-      "badge": "[ GATEWAY ]",
       "title": "Connect with AI Coding Tools",
       "description": "<b>Viber.vn</b> is a gateway that helps you access and use <b>Augment Code</b>, <b>Claude Code</b>, <b>OpenCode</b>, <b>OpenClaw</b> easily. Vietnamese documentation, 24/7 support.",
-      "cta": "Access Gateway →",
-      "docs": "User Guide"
+      "cta": "Access Gateway →"
     },
     "gateway": {
       "title": "What is Gateway?",
@@ -49,16 +24,13 @@
       }
     },
     "tools": {
-      "title": "Available AI Coding Tools",
-      "viewDetails": "View tool details →"
+      "title": "Available AI Coding Tools"
     },
     "videos": {
-      "title": "Tutorial Videos",
-      "viewAll": "View all videos →"
+      "title": "Tutorial Videos"
     },
     "articles": {
-      "title": "Latest Articles",
-      "viewAll": "View all articles →"
+      "title": "Latest Articles"
     },
     "quickStart": {
       "title": "Quick Start",
@@ -86,65 +58,19 @@
     }
   },
   "tools": {
-    "title": "AI Coding Tools",
-    "subtitle": "Discover the leading AI-powered coding tools",
-    "available": "Available Now",
-    "availableNow": "Available Now",
-    "comingSoon": "Coming Soon",
-    "products": "Products",
     "strengths": "Strengths",
     "bestFor": "Best For",
-    "accessGateway": "Access Gateway",
-    "note": "Gateway only provides connection and payment support. The tools above are developed by Augment Code Inc. and Anthropic.",
-    "augmentCode": {
-      "name": "Augment Code",
-      "description": "AI assistant that understands your codebase context. Integrates with VS Code, JetBrains, Neovim.",
-      "tagline": "Codebase retrieval • Multi-file editing • Context-aware"
-    },
-    "claudeCode": {
-      "name": "Claude Code",
-      "description": "Powered by Anthropic. Superior reasoning capabilities for complex tasks.",
-      "tagline": "Advanced reasoning • Code review • Documentation"
-    },
-    "opencode": {
-      "name": "OpenCode",
-      "description": "Open source AI coding tool supporting multiple LLM providers. OpenCode delivers a flexible, transparent, and fully customizable AI coding experience.",
-      "tagline": "Open source • Multi-provider • Highly customizable"
-    },
-    "openclaw": {
-      "name": "OpenClaw",
-      "description": "Open-source personal AI assistant that runs on your own devices. Connect through Telegram, WhatsApp, Slack, Discord, Zalo with persistent 24/7 memory.",
-      "tagline": "Local-first • Multi-channel • 24/7 Personal AI assistant"
-    },
-    "ampcode": {
-      "name": "AmpCode",
-      "description": "Next generation AI coding assistant."
-    },
-    "antigravity": {
-      "name": "Antigravity",
-      "description": "Breakthrough AI coding platform."
-    }
+    "accessGateway": "Access Gateway"
   },
   "videos": {
-    "title": "Tutorial Videos",
-    "subtitle": "Learn how to setup and use AI coding tools",
     "categories": {
       "setup": "Setup Guides",
       "tutorials": "Tutorials",
       "tips": "Tips & Tricks"
     }
   },
-  "articles": {
-    "title": "Articles",
-    "subtitle": "News and articles about AI Coding",
-    "readMore": "Read more on Gateway →"
-  },
   "footer": {
-    "description": "Gateway connecting you with AI Coding Tools",
-    "quickLinks": "Quick Links",
-    "resources": "Resources",
-    "connect": "Connect",
-    "copyright": "© 2024 Viber.vn. All rights reserved."
+    "description": "Gateway connecting you with AI Coding Tools"
   },
   "theme": {
     "light": "Light",
