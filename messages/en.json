@@ -80,6 +80,71 @@
   "language": {
     "vi": "Tiếng Việt",
     "en": "English"
+  },
+  "terminal": {
+    "title": "Terminal Playground",
+    "welcome": "Welcome to ViberVN Terminal! Type 'help' to see available commands.",
+    "prompt": "viber.vn $",
+    "notFound": "Command not found: {cmd}. Type 'help' for available commands.",
+    "commands": {
+      "help": {
+        "desc": "Show help",
+        "output": "Available commands:"
+      },
+      "listTools": {
+        "desc": "List AI tools",
+        "available": "Available",
+        "comingSoon": "Coming Soon"
+      },
+      "compare": {
+        "desc": "Compare two tools",
+        "usage": "Usage: compare <tool1> <tool2>",
+        "notFound": "Tool not found: {tool}",
+        "strengths": "Strengths",
+        "bestFor": "Best For"
+      },
+      "connect": {
+        "desc": "Get gateway link for a tool",
+        "notFound": "Tool not found: {tool}",
+        "comingSoon": "{tool} is coming soon! Check back later.",
+        "url": "Access gateway: {url}"
+      },
+      "clear": {
+        "desc": "Clear terminal"
+      },
+      "cat": {
+        "desc": "🐈 Meow~",
+        "output": "  /\\_/\\  \n ( o.o ) \n  > ^ <  \n Meow~ Cat here! 🐈"
+      },
+      "sudo": {
+        "desc": "Nice try 😼",
+        "output": "🚫 Permission denied: Cat does not allow system deletion! 😼"
+      }
+    }
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "navigation": "Navigation",
+    "actions": "Actions",
+    "hint": "Press ? for shortcuts",
+    "goTo": "Go to {section}",
+    "sections": {
+      "hero": "Home",
+      "tools": "Tools",
+      "videos": "Videos",
+      "articles": "Articles",
+      "community": "Community"
+    },
+    "actionLabels": {
+      "help": "Show shortcuts",
+      "theme": "Toggle theme",
+      "language": "Switch language",
+      "terminal": "Focus terminal",
+      "close": "Close"
+    }
+  },
+  "konami": {
+    "message": "DEVELOPER MODE ACTIVATED"
   }
 }
 

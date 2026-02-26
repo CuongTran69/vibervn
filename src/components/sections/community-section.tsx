@@ -5,7 +5,7 @@ interface CommunitySectionProps {
 
 export function CommunitySection({ t }: CommunitySectionProps) {
   return (
-    <section className="border-b-2 border-black dark:border-gray-700">
+    <section id="community" className="border-b-2 border-black dark:border-gray-700">
       <div className="mx-auto max-w-5xl px-4 py-12">
         <div className="border-2 border-black dark:border-gray-700 p-8 text-center">
           <div className="text-4xl mb-4">💬</div>

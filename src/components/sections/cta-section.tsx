@@ -5,7 +5,7 @@ interface CtaSectionProps {
 
 export function CtaSection({ t }: CtaSectionProps) {
   return (
-    <section className="bg-black text-white dark:bg-gray-800">
+    <section id="cta" className="bg-black text-white dark:bg-gray-800">
       <div className="mx-auto max-w-5xl px-4 py-12 text-center">
         <h2 className="text-xl font-bold mb-2">{t("home.cta.title")}</h2>
         <p className="text-sm text-gray-300 mb-6">

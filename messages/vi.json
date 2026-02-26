@@ -80,5 +80,70 @@
   "language": {
     "vi": "Tiếng Việt",
     "en": "English"
+  },
+  "terminal": {
+    "title": "Terminal Playground",
+    "welcome": "Chào mừng đến ViberVN Terminal! Gõ 'help' để xem các lệnh có sẵn.",
+    "prompt": "viber.vn $",
+    "notFound": "Không tìm thấy lệnh: {cmd}. Gõ 'help' để xem các lệnh có sẵn.",
+    "commands": {
+      "help": {
+        "desc": "Hiển thị trợ giúp",
+        "output": "Các lệnh có sẵn:"
+      },
+      "listTools": {
+        "desc": "Liệt kê các AI tools",
+        "available": "Có sẵn",
+        "comingSoon": "Sắp ra mắt"
+      },
+      "compare": {
+        "desc": "So sánh hai tools",
+        "usage": "Cách dùng: compare <tool1> <tool2>",
+        "notFound": "Không tìm thấy tool: {tool}",
+        "strengths": "Điểm mạnh",
+        "bestFor": "Phù hợp cho"
+      },
+      "connect": {
+        "desc": "Lấy link gateway của tool",
+        "notFound": "Không tìm thấy tool: {tool}",
+        "comingSoon": "{tool} sắp ra mắt! Hãy quay lại sau.",
+        "url": "Truy cập gateway: {url}"
+      },
+      "clear": {
+        "desc": "Xóa terminal"
+      },
+      "cat": {
+        "desc": "🐈 Meow~",
+        "output": "  /\\_/\\  \n ( o.o ) \n  > ^ <  \n Meow~ Mèo đây! 🐈"
+      },
+      "sudo": {
+        "desc": "Nice try 😼",
+        "output": "🚫 Permission denied: Mèo không cho phép xóa hệ thống! 😼"
+      }
+    }
+  },
+  "shortcuts": {
+    "title": "Phím tắt",
+    "navigation": "Di chuyển",
+    "actions": "Hành động",
+    "hint": "Nhấn ? để xem phím tắt",
+    "goTo": "Đi đến {section}",
+    "sections": {
+      "hero": "Trang đầu",
+      "tools": "Công cụ",
+      "videos": "Video",
+      "articles": "Bài viết",
+      "community": "Cộng đồng"
+    },
+    "actionLabels": {
+      "help": "Hiển thị phím tắt",
+      "theme": "Chuyển đổi giao diện",
+      "language": "Chuyển ngôn ngữ",
+      "terminal": "Focus terminal",
+      "close": "Đóng"
+    }
+  },
+  "konami": {
+    "message": "CHẾ ĐỘ DEVELOPER ĐÃ KÍCH HOẠT"
   }
 }

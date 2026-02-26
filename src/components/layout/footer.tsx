@@ -13,6 +13,7 @@ export function Footer() {
             © {new Date().getFullYear()} VIBER.VN — {t('footer.description')}
           </div>
           <div className="flex gap-6 text-sm">
+            <span className="text-xs text-gray-400 hidden md:inline">{t('shortcuts.hint')}</span>
             <a href="https://t.me/augmentsupporter" target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-gray-300">Telegram</a>
           </div>
         </div>

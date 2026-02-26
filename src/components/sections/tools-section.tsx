@@ -11,7 +11,7 @@ interface ToolsSectionProps {
 
 export function ToolsSection({ t, loc, availableTools, comingSoonTools }: ToolsSectionProps) {
   return (
-    <section className="border-b-2 border-black dark:border-gray-700">
+    <section id="tools" className="border-b-2 border-black dark:border-gray-700">
       <div className="mx-auto max-w-5xl px-4 py-12">
         <h2 className="text-2xl font-bold mb-6 dark:text-white">
           {t("home.tools.title")}

@@ -16,6 +16,7 @@ import {
   CommunitySection,
   CtaSection,
 } from "@/components/sections";
+import { TerminalPlayground } from "@/components/terminal-playground";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -53,6 +54,7 @@ export default async function Home({ params }: PageProps) {
       <HeroSection t={t} tRich={t.rich} />
       <GatewaySection t={t} />
       <QuickStartSection t={t} tRich={t.rich} />
+      <TerminalPlayground />
       <ToolsSection t={t} loc={loc} availableTools={availableTools} comingSoonTools={comingSoonTools} />
       <VideosSection t={t} tDynamic={t} loc={loc} />
       <ArticlesSection t={t} loc={loc} articles={articles} />

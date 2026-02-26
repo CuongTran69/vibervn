@@ -8,7 +8,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ t, tRich }: HeroSectionProps) {
   return (
-    <section className="pt-20 border-b-2 border-black dark:border-gray-700">
+    <section id="hero" className="pt-20 border-b-2 border-black dark:border-gray-700">
       <div className="mx-auto max-w-5xl px-4 py-12">
         <div className="text-sm mb-4 font-mono dark:text-gray-300">
           [ GATEWAY ]

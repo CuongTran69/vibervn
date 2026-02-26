@@ -12,7 +12,7 @@ const VIDEO_CATEGORIES = ["setup", "tutorials", "tips"] as const;
 
 export function VideosSection({ t, tDynamic, loc }: VideosSectionProps) {
   return (
-    <section className="border-b-2 border-black dark:border-gray-700">
+    <section id="videos" className="border-b-2 border-black dark:border-gray-700">
       <div className="mx-auto max-w-5xl px-4 py-12">
         <h2 className="text-2xl font-bold mb-6 dark:text-white">
           {t("home.videos.title")}
